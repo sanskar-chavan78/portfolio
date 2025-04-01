@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007BFF, #00d4ff);
+    color: white;
+    padding: 40px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+h2 {
+    color: #007BFF;
+    border-bottom: 3px solid #00d4ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #444;
+}
+
+/* Contact Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
